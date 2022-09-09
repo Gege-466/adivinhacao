@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto Mono", monospace;;
+}
+
+body {
+    text-align:center;
+    background-color: #ff94ff;
+    
+}
+
+.conteiner {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.homer {
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+.tudo {
+    display: flex;
+}
+
+.botao {
+    margin-top: 15px;
+    width: 70px;
+    border-radius: 5px;
+    margin-right: 14px;
+}
+
+.campo {
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.alura-logo {
+    width: 300px;
+}
