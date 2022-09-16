@@ -26,7 +26,7 @@ body {
     margin-top: 15px;
     width: 70px;
     border-radius: 5px;
-    margin-right: 14px;
+    margin-right: 10px;
 }
 
 .campo {
@@ -37,4 +37,13 @@ body {
 
 .alura-logo {
     width: 300px;
+}
+
+table {
+    border: solid 3px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adivinhe o número</title>
     <link rel="stylesheet" href="./index.css">
-    <script src="./index.js"></script>
+    
 </head>
 <body>
 <div class="tudo">
@@ -17,10 +17,27 @@
     <input id="campo" class="campo" type="number" placeholder="Digite aqui"> <br>
     <button onclick="chute()" class="botao">Chutar</button>
     <h2 class="resultado" id="resultado"></h2>
+    <table style="width: 100%;">
+        <thead>
+        <tr>
+            <th>Jogadores</th>
+            <th>Vitórias</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <th colspan="2">Adicione</th>
+            
+        </tr>
+    </thead>
+    <tbody id="tabela">
+    </tbody>
+        </table>
+        <p>* VITÓRIA = 3 PONTOS</p>
+        <p>* DERROTA = -1 PONTO</p>
 </div> 
 <div class="img">  
     <img class="homer" src="./img/pngwing.com.png">
 </div> 
 </div>
 </body>
+<script src="./index.js"></script>
 </html>
